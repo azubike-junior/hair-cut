@@ -1,0 +1,277 @@
+*
+{
+    margin:0;
+    padding:0;
+}
+.container span{
+    color:#b15412;
+}
+/********************header****************************/
+#header li .current a
+{
+    color:#b15412;
+    font-weight: bolder;
+}
+
+#header
+{
+    position:sticky;
+    top: 0;
+    z-index: 100;
+}
+.navbar
+{
+    background-color: black;
+    padding: 10px 0 !important;
+}
+.navbar img
+{
+    height:50px;
+    padding: 0px 30px;
+}
+.navbar-nav li a
+{
+    color:#ffffff !important;
+    font-size: 18px !important;
+    font-weight: 600;
+    float: right;
+    display: block !important;
+    padding: 0 20px !important;
+}
+.fa-bars
+{
+    color: #fff;
+    font-size: 40px;
+}
+.navbar-toggler
+{
+    outline: none !important;
+}
+.navbar-nav li a:hover
+{
+    color: #b15412!important;
+    font-weight: bolder;
+    border-radius:10px;
+}
+/********************showcase area*********************/
+#showcase
+{
+    background-image: 
+    linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.4)),url(images/gal\ 22.jpg);
+    height:70vh;
+    background-size: cover;
+}
+#showcase 
+{
+    text-align: center;
+    padding:100px 30px;
+}
+#showcase h1
+{
+    font-size:50px;
+    font-family: 'Ultra', serif;
+    color:#ffffff;
+    text-shadow: 2px 2px 2px #111;
+}
+#showcase p
+{
+    font-size: 30px;
+    font-family: 'Pacifico', cursive;
+    color:#fff;
+    text-shadow: 2px 2px 2px #595d63;
+}
+/********************history************************/
+.history
+{
+    background-color: #e2e0de;
+    width: 100%;
+}
+.history .col-md-6 h1
+{
+    padding-top: 100px ;
+    padding-bottom: 30px;
+    padding-left: 100px;
+    color:black;
+}
+.history .col-md-6 span
+{
+    color:#e26104;
+}
+.history .col-md-6 p
+{
+    padding: 0px 100px 40px;
+}
+.history .col-md-6 img
+{
+    padding: 100px 10px;
+    margin: 30px;
+}
+/********************appointments**************************/
+#appoint
+{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #000000;
+    border: #000000 5px;
+    padding: 50px;
+}
+
+.title::before
+{
+    content: '';
+    background:#b15412;;
+    height: 1px;
+    width:50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(63px);
+}
+#appoint .col-md-6 img{
+    border-radius: 100px;
+    width:50%;
+    padding: 60px;
+}
+
+#appoint .col-md-6 .select{
+    padding: 100px;
+}
+#appoint .col-md-6 .select .btn{
+    background:#b15412;
+}
+/********************gallery*************************/
+#gallery{
+    background: #e2e0de;;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #000000;
+}
+#gallery h1{
+    padding: 50px;
+}
+#gallery .images img{
+    width:22%;
+}
+#gallery .btn{
+    padding:10px 20px;
+    margin: 20px;
+    font-size: 20px;
+    background: #b15412;
+}
+/*******************contact**************************/
+#contact h1{
+    text-align: center;
+    padding: 50px 20px 0px 0px;
+    margin: 0px;
+}
+#contact h2{
+    padding-top: 100px ;
+    padding-bottom: 30px;
+}
+#contact h6{
+    font-size: 15px;
+}
+
+.col-md-6 .quote{
+    padding: 60px 5px;
+}
+.col-md-6 .quote input{
+    padding: 10px;
+    width:400px;
+    background-color: #1a1b1b;
+    outline: none;
+    color: #fff;
+}
+.col-md-6 .quote textarea{
+    padding: 25px;
+    width:400px;
+    background-color: #1a1b1b;
+    outline: none;
+    color: #fff;
+}
+.col-md-6 .quote .new{
+    padding:15px;
+}
+.col-md-6 .quote .btn{
+    padding: 5px 0 20px 0;
+    font-size: 20px;
+    width: 100px;
+    background: #b15412;
+}
+/*******************showfooter**************************/
+#showfooter{
+    background:linear-gradient(rgba(2, 0, 0, 0.3),rgba(0, 0, 0, 0.4)),url(images/gal\ 13.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 90vh;
+}
+#showfooter img{
+    width:300px;
+    margin-top: 200px;
+    margin-left: 40%;
+}
+/*******************footer**************************/
+footer{
+    background:#1a1b1b;
+    color: #e2e0de;
+    padding: 20px;
+}
+
+
+
+/********************************************About us********************************************************************/
+
+#Aboutshowcase{
+    background:url(images/gal\ 9.jpg);
+    height:70vh;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed; 
+}
+#Aboutshowcase h1{
+    font-size: 100px;
+    font-family:'Pacifico', cursive;
+    color: #ffffff;
+    text-shadow: 2px 2px 3px #111;
+    padding: 80px;
+    text-align: center;
+    }
+    #Aboutshowcase p{
+        font-size: 15px;
+        text-align: center;
+        text-shadow: 1px 1px 2px #111;
+        font-family: 'Ultra', serif;
+        color: #fff;
+    }
+    #Aboutshowcase .fa{
+        color:#fff;
+        font-size: 100px;
+        margin-top: -20px;
+        padding-left: 46%;
+        }
+
+    #aboutabout .col-md-12 h1{
+        padding: 50px;
+    }
+    #aboutabout .col-md-12 p{
+        width: 100%;
+        padding-bottom: 40px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
